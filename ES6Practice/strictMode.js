@@ -9,3 +9,5 @@ function myAge(){
     y = 30
     name = "Riashad Noor" //ReferenceError: name is not defined
 }
+
+

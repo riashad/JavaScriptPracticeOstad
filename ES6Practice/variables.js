@@ -37,3 +37,4 @@ console.log("❌ const - Re-assigned value: " + constValue) //TypeError: Assignm
 
 constValue constValue = "Sohayel Rahman";
 console.log("❌ const - Re-declared value: "+ constValue); // Unexpected identifier
+

@@ -10,3 +10,4 @@ var profile = function (myName, myAge, myCountry, myEducation) {
 }
 
 console.log(profile("Riashad Noor", "31", "Bangladesh", "BSc. in CSE"));
+

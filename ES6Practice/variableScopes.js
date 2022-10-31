@@ -20,3 +20,4 @@ var profile2 = function(uname, uage){
 }
 
 profile2("Uzan Rahman", 33) // here localVar, name, age -- all local Variable
+

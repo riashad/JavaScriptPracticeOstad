@@ -10,3 +10,4 @@ let batch08 = [...batch08MorningTeam, ...batch08DayTeam]
 console.log(batch08);
 
 //Also adding "strict mode <use strict>" on top as the Police
+

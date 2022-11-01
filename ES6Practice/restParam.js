@@ -32,4 +32,3 @@ function result2(k,l,m,...input2){
 
 result2(20,30,40,50,60,70); //here, 20,30,40 will be assigned to k,l,m respectively
 //and rest of the values will be assigned under input2(rest param)
-

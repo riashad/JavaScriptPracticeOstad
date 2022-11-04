@@ -1,4 +1,5 @@
 //Dynamic function don't have function name, rather variable is used to assign and call the function.
+// Also known as Anonymous function
 
 var status = function (myStatus) {
     return myStatus;

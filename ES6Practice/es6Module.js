@@ -14,4 +14,4 @@ class chinaToBd {
 	}
 }
 
-export default {chinaToBd};
+export default chinaToBd;

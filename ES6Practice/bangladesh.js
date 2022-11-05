@@ -1,7 +1,7 @@
 // import kobe laptop from china
 import {laptop, mobilePhone} from './china.js'; //Same name e import export korarke Named Import and Export bole
 import {classChina} from './china.js'; //Importing class
-import {chinaToBd}  from './es6Module.js'; // Importing class using default module
+import c2bd  from './es6Module.js'; // Importing class using default module
 
 
  console.log("Hello, from console");
@@ -14,6 +14,6 @@ let chinaObj = new classChina();
 chinaObj.toy();
 
 //default module use
-let moduleObj = new chinaToBd();
+let moduleObj = new c2bd();
 moduleObj.defaultModuleTesting();
 

@@ -10,4 +10,5 @@
 Generate Package.json file
 Inside package.json file add "type": "module" to keep all the files inside the module
 for import and export
+
 Check the changes automatically using nodemon package.

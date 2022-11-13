@@ -8,14 +8,14 @@ var bioData = {
 	family: {
 		father: 'Md. Nuruzzaman',
 		mother: 'Asma -Ul- Hosna',
+		wife: 'Sinthia Noor',
+		kid: 'Faatiha Mehnoor',
 		brother: {
 			name: 'Tishad',
 			age: '27',
 			study: 'BRAC',
 			subject: 'BBA'
-		},
-		wife: 'Sinthia Noor',
-		kid: 'Faatiha Mehnoor'
+		}
 	}
 }
 

@@ -1,5 +1,5 @@
-"use strict"   // shows JS error - Police or Error Display for JS
-var x = 10; //ReferenceError: x is not defined
+"use strict"   // shows JS error - Police or Error Display for JSvar
+var  x = 10; //ReferenceError: x is not defined
 
 var y = 20;
 

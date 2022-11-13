@@ -1,0 +1,15 @@
+{
+  "name": "filereading",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fileRead.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node fileRead.js",
+    "asywrite": "node fileWriteAsy.js",
+    "sywrite": "node fileWriteSy.js"
+  },
+  "keywords": [],
+  "author": "Riashad Noor",
+  "license": "ISC"
+}

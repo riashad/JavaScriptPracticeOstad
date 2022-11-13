@@ -3,6 +3,9 @@
 
 class parent {
 
+	constructor() {
+	}
+
 	p1() {
 		console.log("Hello, Bangladesh! this is Parent 1");
     }
@@ -31,3 +34,4 @@ class child extends parent{
 let cObj = new child();
 cObj.c1();
 cObj.c2();
+cObj.p1();

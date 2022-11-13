@@ -25,3 +25,18 @@ let func3 = (...restf) => {
 	}
 }
 func3(1,2,3,4,5,6,7,8,9,10);
+
+
+
+function funcName() {
+	//basic function
+}
+
+let NameLess = function() {
+	// anonymous function
+}
+
+let NameLessFunctionKeywordLess = () => {
+
+}
+

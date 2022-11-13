@@ -20,7 +20,7 @@ let dhaka = ["Mohammadpur", "Shamoly", "Shahbag", "Malibag"];
 let jessore = ["New Market", "Bejpara", "Kathal Toal", "babla Tola"]
 let ponchogor = ["Vitor gar", "Bahir Gor", "Dimla"];
 
-let bangladeshCity = [dhaka, jessore, ponchogor];
+let bangladeshCity = [dhaka, jessore, ponchogor]; //[[],[],[]]
 console.log(bangladeshCity)
 
 //If I want to select Babla Tola then I have to do the following
@@ -42,5 +42,5 @@ console.log(bangladeshSohor);
 console.log(bangladeshSohor2);
 
 
-let [q,,,,c] = bangladeshSohor2;
-console.log(q, c)
+let [q,,,c,,,f] = bangladeshSohor2;
+console.log(q, c, f)

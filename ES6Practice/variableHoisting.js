@@ -1,6 +1,6 @@
 "use strict"
 // 👉Only applicable for "var" - keyword
-// Hoisting works for ✅var ❌let ❌const
+// Hoisting works for ✅var ✅let ❌const
 
 // 🟢️ First initialize & then declare 🟢
 

@@ -1,0 +1,13 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "firstHello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node firstHello.js"
+  },
+  "keywords": [],
+  "author": "Riashad Noor",
+  "license": "ISC"
+}

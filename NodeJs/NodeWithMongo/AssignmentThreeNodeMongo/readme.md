@@ -11,6 +11,6 @@
 7. Separate file for each operation (CRUD) 
 
 **Task outside works:**
-1. CRUD using old ways (deprecated) - folder "old"c
+1. CRUD using old ways (deprecated) - folder "old"
 2. CRUD using new ways (based on current version of Node Js + Mongo) - folder "new"
 

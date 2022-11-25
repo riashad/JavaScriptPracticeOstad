@@ -7,10 +7,9 @@
 3. Use Mongodb
 4. Connect Mongodb atlas
 5. Do CRUD Operation
-6. Try to use all the things taught for CRUD
-7. Separate file for each operation (CRUD) 
+
 
 **Task outside works:**
-1. CRUD using old ways (deprecated) - folder "old"
-2. CRUD using new ways (based on current version of Node Js + Mongo) - folder "new"
-
+1. Try to use Collection creation
+2. Try to use sorting, query, conditions, projection
+3. 

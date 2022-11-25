@@ -18,13 +18,14 @@ function singleDataUpdate(MyMongoData) {
 	//query set to update
 	let dataToUpdate = {
 		year:2022,
-		runup: "Germany"
+		runup: "Do not know"
 	}
 	//set the changes
 	let dataToChange = {
 		$set: {
-			runup: "France",
-			champ: "Argentina"
+			runup: "Argentina",
+			champ: "Brazil",
+			third: "Germany"
 		}
 	}
 	//Updating Query

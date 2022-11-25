@@ -21,7 +21,7 @@ function deleteSingleDataFromDb(GetMongoData){
 	//which one to delete
 	let dataToDelete = {
 		year: 2022,
-		champ:"do not know"
+		champ:"Do not know"
 	}
 	//delete one data
 	colSelect.deleteOne(dataToDelete, (error, result)=>{

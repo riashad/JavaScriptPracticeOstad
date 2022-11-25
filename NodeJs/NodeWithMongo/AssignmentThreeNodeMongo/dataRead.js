@@ -75,7 +75,7 @@ function findWithProjection(data){
 	});
 }
 
-function findAllData(result) {
+function findAllData(data) {
 	//select db from cluster
 	let dbSelect = data.db('fifaworldcup');
 	//select collection from database

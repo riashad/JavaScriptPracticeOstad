@@ -11,6 +11,7 @@ MongoClient.connect(DB_REMOTE_URL, unifiedTopology, function (error, result) {
 		console.log("Connected successfully!");
 		// findWithoutCondition(result);
 		// findWithCondition(result);
+		// findWithCondition(result);
 		findAllData(result);
 	}
 });

@@ -1,4 +1,4 @@
-let MongoDb = require('mongodb').MongoClient;
+   let MongoDb = require('mongodb').MongoClient;
 let db_url ="mongodb+srv://riashad:Ostad%402022@cluster0.fnjwco8.mongodb.net/?retryWrites=true&w=majority";
 let unifiedTopology = {useUnifiedTopology: true};
 

@@ -10,10 +10,10 @@ MongoClient.connect(db_url_local,unifiedTopology, (error, result)=>{
 
 		 //listCollection(result);
 		//createCollection(result);
-		insertData(result);
+		//insertData(result);
 		//findData(result);
-		updateData(result);
-		 deleteData(result);
+		//updateData(result);
+		 //deleteData(result);
 	}
 });
 

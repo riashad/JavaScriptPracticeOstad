@@ -4,7 +4,7 @@ const bodyParser = require('body-parser'); //required for parsing JSON data
 
 //Instances
 const app = expressJs();
-const port  = 5050;
+const port  = 8000;
 
 //using Body Parser for the application
 app.use(bodyParser.json());

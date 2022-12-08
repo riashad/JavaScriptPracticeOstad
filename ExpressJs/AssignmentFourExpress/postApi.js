@@ -1,6 +1,12 @@
+//Task: Make a POST API with URL Query ,Body & Header Properties.
+
 //Importing Necessary Modules
 const expressJs = require('express'); //required for Running express server
 const bodyParser = require('body-parser'); //required for parsing JSON data
+
+//We can send data as form using Multer too
+const multerForm = require('multer');
+
 
 //Instances
 const app = expressJs();
@@ -9,7 +15,19 @@ const port  = 8000;
 //using Body Parser for the application
 app.use(bodyParser.json());
 
-//using Application Level Middleware
+//For multipart form data
+let multer = multerForm();
+app.use(multer.array());
+app.use(expressJs.static('public'));
+
+
+// Route level Middleware
+// app.use('/one', (req, res, next)=>{
+// 	console.log("One page based - route level- middleware");
+// 	next();
+// })
+
+// Using Application Level Middleware
 app.use((req, res, next)=>{
 	//Request--->Next()--->Response
 	console.log("Application level middleware is applied!");
@@ -40,6 +58,12 @@ app.post('/',(req, res)=>{
 		'Header \n Author: '+author+' , Learning Platform: '+platform+' , User Ip: '+userip+' & User Device: '+userAgent +'\n\n' +
 		'Body JSON Data: \n'+ makeString+'\n\n')
 	res.status(200).end();
+});
+
+//POST Body using Multer - Multipart Form Data
+app.post('/one', (req, res)=>{
+	let jsonData = req.body;
+	res.send(JSON.stringify(jsonData));
 });
 
 //Setting & Clearing Cookies

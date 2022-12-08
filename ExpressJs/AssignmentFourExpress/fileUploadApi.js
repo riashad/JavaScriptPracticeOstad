@@ -48,6 +48,7 @@ let uploadImage = multerModule({
 	}
 }).single('fileToUpload');
 
+//Error handling
 app.post('/', (req, res)=>{
 	uploadImage(req,res,(error)=>{
 		if(error){

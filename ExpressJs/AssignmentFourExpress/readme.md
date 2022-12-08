@@ -14,11 +14,11 @@
 
 
 **1. Post API**
-[!Post Api Header & Query URL][./gitimages/Post-Api-Header-Query-URL.png]
-[!Post Api Body][./gitimages/Post-Api-Body.png]
-[!Post APi Output][./gitimages/Post-APi-Output.png]
+![Post Api Header & Query URL](./gitimages/Post-Api-Header-Query-URL.png)
+![Post Api Body](./gitimages/Post-Api-Body.png)
+![Post APi Output](./gitimages/Post-APi-Output.png)
 
 **1. File Upload API**
-[!File upload -file type check][./gitimages/File-upload-file-type-check.png]
-[!File upload -file size check][./gitimages/File-upload-file-size-check.png]
-[!File upload -success][./gitimages/File-upload-success.png]
+![File upload -file type check](./gitimages/File-upload-file-type-check.png)
+![File upload -file size check](./gitimages/File-upload-file-size-check.png)
+![File upload -success](./gitimages/File-upload-success.png)

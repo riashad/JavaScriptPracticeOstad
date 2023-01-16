@@ -31,15 +31,16 @@
     ✅ Validator: sting validation
     ✅ Xss-clean: sanitize Post Body, URL params, GET queries
 
-👉 **Express REST API - File Folder Structure:**
+👉 **Express REST API - How things work:**
 
     ✅ Client Application / Script -->
     ✅ Routing End Point -->
     ✅ Controller --> <--- Model
     ✅ Controller --> <--- Database
     ✅ Controller --> Client Application / Script
+    ✅ REST API don't have "View", the view will call API to integrate from here
 
-👉 **My Rest API Project To Do:**
+👉 **My Rest API Project - File Folder Structure:**
 
     ✅ Create a project folder / root folder
     ✅ Create package.json file
@@ -52,3 +53,7 @@
     ✅ Create src > controllers directory
     ✅ Create src > models directory
     ✅ Create src > routes directory
+    ✅ Create src > middleware directory
+    ✅ Create src > helper directory
+
+👉 Request ➡ Controller ➡ Route ➡ App.js ➡ Index.js ➡ 
